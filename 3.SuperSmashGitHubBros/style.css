@@ -1,0 +1,121 @@
+.webcam {
+
+    position: absolute;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 20;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+.classPrediction {
+    position: absolute;
+    top: 400px;
+}
+
+.example {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+
+body {
+    padding: 20px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.canvasbox {
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 450px;
+    height: 338px;
+    border-bottom: 3px solid #0063FF;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.mb10 {
+    margin-bottom: 10px
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+.updatenote {
+    padding: 10px;
+    background: rgb(245, 147, 20);
+    color: white;
+    display: inline;
+}
+
+
+.videobox {
+    border-radius: 2px;
+    margin: 0 6px 0 0;
+    object-fit: cover;
+}
+
+
+.MyvideoElement {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);
+    /* Firefox */
+}
+
+
+.webcam,
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20 px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.myvideo {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mycanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+.game {
+
+    position: absolute;
+    top: 400px;
+
+}
